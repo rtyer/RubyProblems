@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/fizzbuzz.rb'
+
+fizzbuzz = FizzBuzz.new
+(1..100).each do |i|
+  puts fizzbuzz.answer(i)
+end
+  
