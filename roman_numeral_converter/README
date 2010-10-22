@@ -1,0 +1,4 @@
+== roman_numeral_converter
+
+Write a method to convert a number between 1 and 50 to its Roman numeral equivalent.
+(for example: 2 = ’II’, 10 = ’X’, 25 = ’XXV’, 50 = ’L’)

@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/roman_numeral_converter.rb'
+
+rnc = RomanNumeralConverter.new
+if(ARGV.length==0) then
+  (1..50).each do |i|
+    puts rnc.convert(i)
+  end
+elsif(ARGV.length==1 && ARGV[0].to_i<=89)
+  puts rnc.convert(ARGV[0].to_i)
+else
+  puts "Usage: roman <number under 90>"
+end
